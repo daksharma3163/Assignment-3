@@ -9,4 +9,7 @@ def is_isogram(word):
 
 
 word = input("Enter a word: ")
-is_isogram(word)
+if(is_isogram(word)):
+    print("True")
+else:
+    print("False")
